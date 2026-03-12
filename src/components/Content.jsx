@@ -32,7 +32,7 @@ function Content() {
             <img src={`${API_URL}/${product.imageUrl}`} width="200px" height="200px" alt="Image" />
             <h3>{product.name}</h3>
             <p>{product.desc}</p>
-            <h4>{product.price}</h4>
+            <h4>Price: {product.price}</h4>
             <p><button>Add to Cart</button></p>
           </div>
         ))}
