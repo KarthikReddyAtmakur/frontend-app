@@ -3,8 +3,12 @@
     flex-wrap: wrap;
     padding: 5px;
 }
+.row img{
+    border-radius: 10px;
+}
 .box{
     border: 1px solid gray;
     padding: 5px;
     margin: 5px;
+    border-radius: 10px;
 }
